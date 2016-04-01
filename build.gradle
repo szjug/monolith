@@ -1,6 +1,10 @@
 
 apply plugin: 'eclipse'
 
+allprojects{
+	version = 1.0
+}
+
 subprojects{
 	buildscript {
 		ext {
@@ -35,3 +39,11 @@ subprojects{
 		}
 	}
 }
+
+/*
+apply plugin: 'compare-gradle-builds'
+
+compareGradleBuilds {
+    targetBuild.gradleVersion = "3.0"
+}
+*/
