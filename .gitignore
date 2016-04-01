@@ -1,7 +1,10 @@
 .project
 .classpath
+.settings
 .idea
 .gradle
 bin
 build
 target
+*.log
+*.zip
