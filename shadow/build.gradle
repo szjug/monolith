@@ -20,6 +20,9 @@ buildscript {
 
 apply plugin: 'java' // or 'groovy'. Must be explicitly applied
 apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'spring-boot'
+
+bootRepackage.enabled = false
 
 dependencies {
 	compile project(':io.github.szjug.greeting')
