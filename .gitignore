@@ -8,3 +8,4 @@ build
 target
 *.log
 *.zip
+gradle-app.setting
